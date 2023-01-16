@@ -9,8 +9,7 @@ import { Container } from '@/components/Container'
 import {
   TwitterIcon,
   InstagramIcon,
-  GitHubIcon,
-  LinkedInIcon,
+  YouTubeIcon,
 } from '@/components/SocialIcons'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
@@ -250,45 +249,37 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Fit Gone Forty - Software designer, founder, and amateur astronaut
-        </title>
+        <title>Fit Gone Forty - Staying reasonably fit</title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m John, a software designer and entrepreneur based in Cambridge. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Staying reasonably fit.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m John, a software designer and entrepreneur based in Cambridge.
+            I’m the founder and CEO of Planetaria, where we develop technologies
+            that empower regular people to explore space on their own terms.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
+              href="https://www.youtube.com/@fitgoneforty"
+              aria-label="Follow on YouTube"
+              icon={YouTubeIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/fitgoneforty/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="https://linkedin.com"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+              href="https://twitter.com/fitgoneforty"
+              aria-label="Follow on Twitter"
+              icon={TwitterIcon}
             />
           </div>
         </div>
